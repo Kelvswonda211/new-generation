@@ -1,0 +1,171 @@
+body{
+    background-image: url(brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    background-size: 100%;
+}
+/* for box1 */
+
+.papa1{
+    background-color: rgb(131, 218, 233);
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+.papa1:hover{ background-color: rgb(107, 157, 190);
+
+    
+}
+.child1{
+    color: rgb(93, 111, 170);
+    font: bolder;
+    font-size: 20px;
+    place-items: center;
+    display:flexbox;
+    text-justify: space around;
+    background-image: url(images/istockphoto-1207508880-170667a.webp);
+    border-radius: 80px;
+    padding-left: 30px;
+}
+.hometext{padding-left: 320px;
+    place-items: center;
+    display: flex;
+
+}
+.btn1,.btn11{
+    padding-top:6%;
+    padding-bottom: 8%;
+    border-radius: 20px;
+    padding: left 20px;
+    width:150px;
+    height:20%;
+    margin-bottom: 20px;
+    text-decoration: wavy;
+    display: flex;
+    place-items: center;
+}
+
+/* for box2 */
+ .navbar{
+    overflow: hidden;
+    background-color: lightsalmon;
+    font-family: Geneva;
+ }
+ .navbar a{
+    float: left;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+    text-decoration: wavy;
+ }
+
+ .dropdown{
+float: left;
+overflow: hidden;
+ }
+ .dropdown-btn{
+    font-size: 20px;
+    border: 2px;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+ }
+
+ .navbar:hover, .dropdown:hover, .dropdown-btn{
+    background-color: aqua;
+
+ }
+.dropdown-contents{
+    display: none;
+    position: absolute;
+    background-color: greenyellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+.dropdown-contents a:hover{
+    background-color: blueviolet;
+}
+
+/* to show dropdown menu on hover */
+.dropdown:hover .dropdown-contents{
+    display: block;
+}
+
+
+.child2b{
+    background-color: deepskyblue;
+}
+
+.child2c{
+    padding-top:6%;
+    padding-bottom: 8%;
+    border-radius: 20px;
+    padding: left 20px;
+    width:150px;
+    height:20%;
+    margin-bottom: 20px;
+    text-decoration: wavy;
+    display: flex;
+    place-items: center;
+    background-image: url(images/bench-accounting-nvzvOPQW0gc-unsplash.jpg);
+    background-size: 100%;
+}
+
+.btn11{
+    display: inline;
+    padding-left: 20px;
+    text-decoration: solid;
+    margin-top: 20px;
+    background-color: rgb(126, 190, 190);
+}
+.btn11:hover{
+    background-color:rgb(104, 152, 184) ;
+
+}
+
+.papa3{
+    background-color: rgb(131, 218, 233);
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+.child3{
+    color: rgb(93, 111, 170);
+    font: bolder;
+    font-size: 20px;
+    place-items: center;
+    display:flexbox;
+    text-justify: space around;
+    background-image: url(images/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    border-radius: 80px;
+    padding-left: 30px;
+}
+.btn3{
+    padding-top:6%;
+    padding-bottom: 8%;
+    border-radius: 20px;
+    padding: left 20px;
+    width:150px;
+    height:20%;
+    margin-bottom: 20px;
+    text-decoration: wavy;
+    display: flex;
+    place-items: center;
+}
+
+.papa4{
+    margin-top: 100px;
+}
+.lastline{
+    display:inline-flexbox;
+    place-items: center;
+    text-transform: capitalize;
+    width: 5000px;
+    height: 200px;
+}
